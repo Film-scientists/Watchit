@@ -1,0 +1,8 @@
+It may be difficult to install surprise library.
+So, it is easier just to follow some simple instructions:
+---------------------------------------------------------
+1. Install conda
+2. Create venv
+3. Activate conda enviroment
+4. run: conda install python=3.6
+5. run: conda install -c conda-forge scikit-surprise
