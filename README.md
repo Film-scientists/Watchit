@@ -28,5 +28,4 @@ recommendation_engine.py is a module which unites our two recommendations algori
 
 film_system.py containes class FilmSystem, which ties all modules together. Methods login(self) and register(self) use classes from auth.py to register and log in user. Method get(self) uses function core() from recommendation_engine.py to get recommendations, print and save them to the file. Method main(self) organizes interaction with user.
 
-## Credits
-information will be available later
+## Tests
