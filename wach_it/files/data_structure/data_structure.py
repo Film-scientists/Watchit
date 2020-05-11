@@ -130,7 +130,7 @@ class User:
         ---------------
         Return the average rating that user gives to film
         """
-        return round(ratings["rating"].mean())
+        return round(ratings["rating"].mean(), 2)
 
     def normalize_ratings(self, ratings):
         """
