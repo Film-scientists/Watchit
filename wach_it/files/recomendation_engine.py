@@ -42,7 +42,7 @@ def quintessential(pivot, rec_n, rec_m):
     :return: DataFrame
     ------------------
     Try to make the best prediction possible
-    First filters genres and then ands intersection
+    First filters genres and then adds intersection
     of results of two algorithms to their parts in certain
     proportion.
     Proportion depends on COEFFICIENT
