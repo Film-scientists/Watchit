@@ -4,9 +4,16 @@
 favourite categories of films. Then evaluate movies, that you have already seen. Taking to account your ratings, system picks up and 
 proposes 10 films, that match your tastes. 
 ## Instalation
-git clone https://github.com/Film-scientists/Watchit
+Install our project by using: 
+```python
+$ git clone https://github.com/Film-scientists/Watchit
+```
 
-Run only script.py
+Follow the next path to unzip file you need. Watchit --> wach_it --> files --> data --> ratings_1M.zip - unzip this file to current directory (data). 
+
+Run script.py from wach_it folder. 
+
+
 ## Usage example
 First of all you need to register to our system. Then, you have 2 options:'get' - to get recommendations and 'see' - to see previous recommendations. ![](images/start.jpg)
 Let's get some recommendations! At first you have to choose at least 3 your favourite genres. ![](images/genres.jpg)
