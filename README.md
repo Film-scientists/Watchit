@@ -4,7 +4,7 @@
 favourite categories of films. Then evaluate movies, that you have already seen. Taking to account your ratings, system picks up and 
 proposes 10 films, that match your tastes. 
 ## Instalation
-git clone ...
+git clone https://github.com/Film-scientists/Watchit
 
 Run only script.py
 ## Usage example
