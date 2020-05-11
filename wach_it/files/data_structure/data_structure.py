@@ -145,7 +145,7 @@ class User:
         dct = ratings.to_dict()
         movie_id, rating = dct["movieId"], dct["rating"]
         for ind, movie in movie_id.items():
-            norm_rates[movie] = rating[ind] - self.av_r
+            norm_rates[movie] = round(rating[ind] - self.av_r, 2)
         return norm_rates
 
     def get_movies(self):
