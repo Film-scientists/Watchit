@@ -1,0 +1,22 @@
+watch\_it.files.data\_structure package
+=======================================
+
+Submodules
+----------
+
+watch\_it.files.data\_structure.data\_structure module
+------------------------------------------------------
+
+.. automodule:: watch_it.files.data_structure.data_structure
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: watch_it.files.data_structure
+   :members:
+   :undoc-members:
+   :show-inheritance:

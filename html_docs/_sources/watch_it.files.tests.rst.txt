@@ -1,0 +1,62 @@
+watch\_it.files.tests package
+=============================
+
+Submodules
+----------
+
+watch\_it.files.tests.test\_auth module
+---------------------------------------
+
+.. automodule:: watch_it.files.tests.test_auth
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.tests.test\_data\_structure module
+--------------------------------------------------
+
+.. automodule:: watch_it.files.tests.test_data_structure
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.tests.test\_matrix module
+-----------------------------------------
+
+.. automodule:: watch_it.files.tests.test_matrix
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.tests.test\_neighbour module
+--------------------------------------------
+
+.. automodule:: watch_it.files.tests.test_neighbour
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.tests.test\_recomendation\_engine module
+--------------------------------------------------------
+
+.. automodule:: watch_it.files.tests.test_recomendation_engine
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.tests.test\_start module
+----------------------------------------
+
+.. automodule:: watch_it.files.tests.test_start
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: watch_it.files.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:

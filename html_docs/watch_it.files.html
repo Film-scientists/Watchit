@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>watch_it.files package &#8212; Watch_it 1.0.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="watch-it-files-package">
+<h1>watch_it.files package<a class="headerlink" href="#watch-it-files-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="watch_it.files.data.html">watch_it.files.data package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.data.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="watch_it.files.data.test_only.html">watch_it.files.data.test_only package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="watch_it.files.data.test_only.html#module-watch_it.files.data.test_only">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.data.html#module-watch_it.files.data">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="watch_it.files.data_structure.html">watch_it.files.data_structure package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.data_structure.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.data_structure.html#module-watch_it.files.data_structure.data_structure">watch_it.files.data_structure.data_structure module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.data_structure.html#module-watch_it.files.data_structure">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="watch_it.files.tests.html">watch_it.files.tests package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_auth">watch_it.files.tests.test_auth module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_data_structure">watch_it.files.tests.test_data_structure module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_matrix">watch_it.files.tests.test_matrix module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_neighbour">watch_it.files.tests.test_neighbour module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_recomendation_engine">watch_it.files.tests.test_recomendation_engine module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests.test_start">watch_it.files.tests.test_start module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="watch_it.files.tests.html#module-watch_it.files.tests">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-watch_it.files.auth">
+<span id="watch-it-files-auth-module"></span><h2>watch_it.files.auth module<a class="headerlink" href="#module-watch_it.files.auth" title="Permalink to this headline">¶</a></h2>
+<p>Module with Authenticator</p>
+<dl class="py exception">
+<dt id="watch_it.files.auth.AuthException">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">AuthException</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.AuthException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Represent main exception class</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="watch_it.files.auth.Authenticator">
+<em class="property">class </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">Authenticator</code><a class="headerlink" href="#watch_it.files.auth.Authenticator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for authenticator representation.</p>
+<dl class="py method">
+<dt id="watch_it.files.auth.Authenticator.add_user">
+<code class="sig-name descname">add_user</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">password</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.Authenticator.add_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Authenticator) -&gt; NoneType
+Adds a new user.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.auth.Authenticator.is_logged_in">
+<code class="sig-name descname">is_logged_in</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.Authenticator.is_logged_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Authenticatior, str) -&gt; bool
+Checks whether user is logged.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.auth.Authenticator.login">
+<code class="sig-name descname">login</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">password</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.Authenticator.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Authenticator, str, str) -&gt; bool
+Logins user.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py exception">
+<dt id="watch_it.files.auth.InvalidPassword">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">InvalidPassword</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.InvalidPassword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#watch_it.files.auth.AuthException" title="watch_it.files.auth.AuthException"><code class="xref py py-class docutils literal notranslate"><span class="pre">watch_it.files.auth.AuthException</span></code></a></p>
+<p>Represent AuthException subclass</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="watch_it.files.auth.InvalidUsername">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">InvalidUsername</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.InvalidUsername" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#watch_it.files.auth.AuthException" title="watch_it.files.auth.AuthException"><code class="xref py py-class docutils literal notranslate"><span class="pre">watch_it.files.auth.AuthException</span></code></a></p>
+<p>Represent AuthException subclass</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="watch_it.files.auth.NotLoggedInError">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">NotLoggedInError</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.NotLoggedInError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#watch_it.files.auth.AuthException" title="watch_it.files.auth.AuthException"><code class="xref py py-class docutils literal notranslate"><span class="pre">watch_it.files.auth.AuthException</span></code></a></p>
+<p>Represent AuthException subclass</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="watch_it.files.auth.PasswordTooShort">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">PasswordTooShort</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.PasswordTooShort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#watch_it.files.auth.AuthException" title="watch_it.files.auth.AuthException"><code class="xref py py-class docutils literal notranslate"><span class="pre">watch_it.files.auth.AuthException</span></code></a></p>
+<p>Represent AuthException subclass</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="watch_it.files.auth.User">
+<em class="property">class </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">User</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">password</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.User" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for user representation.</p>
+<dl class="py method">
+<dt id="watch_it.files.auth.User.check_password">
+<code class="sig-name descname">check_password</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">password</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.User.check_password" title="Permalink to this definition">¶</a></dt>
+<dd><p>(User, str) -&gt; bool
+Return True if the password is valid for this
+user, false otherwise.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py exception">
+<dt id="watch_it.files.auth.UsernameAlreadyExists">
+<em class="property">exception </em><code class="sig-prename descclassname">watch_it.files.auth.</code><code class="sig-name descname">UsernameAlreadyExists</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">username</span></em>, <em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.auth.UsernameAlreadyExists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#watch_it.files.auth.AuthException" title="watch_it.files.auth.AuthException"><code class="xref py py-class docutils literal notranslate"><span class="pre">watch_it.files.auth.AuthException</span></code></a></p>
+<p>Represent AuthException subclass</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files.film_system">
+<span id="watch-it-files-film-system-module"></span><h2>watch_it.files.film_system module<a class="headerlink" href="#module-watch_it.files.film_system" title="Permalink to this headline">¶</a></h2>
+<p>module with FilmSystem class</p>
+<dl class="py class">
+<dt id="watch_it.files.film_system.FilmSystem">
+<em class="property">class </em><code class="sig-prename descclassname">watch_it.files.film_system.</code><code class="sig-name descname">FilmSystem</code><a class="headerlink" href="#watch_it.files.film_system.FilmSystem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for film system representation.</p>
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.create_txt">
+<code class="sig-name descname">create_txt</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.create_txt" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Creates file for storing user data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Recommends films to usser based on collaborative filtering algorythm.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.login">
+<code class="sig-name descname">login</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Logins user.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.menu">
+<code class="sig-name descname">menu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.menu" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; str
+Main menu function.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.quit">
+<em class="property">static </em><code class="sig-name descname">quit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.quit" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Quits the module.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.register">
+<code class="sig-name descname">register</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.register" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Registers user.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="watch_it.files.film_system.FilmSystem.see">
+<code class="sig-name descname">see</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.film_system.FilmSystem.see" title="Permalink to this definition">¶</a></dt>
+<dd><p>(FilmSystem) -&gt; NoneType
+Viewing function.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files.matrix">
+<span id="watch-it-files-matrix-module"></span><h2>watch_it.files.matrix module<a class="headerlink" href="#module-watch_it.files.matrix" title="Permalink to this headline">¶</a></h2>
+<p>Matrix algorithm</p>
+<dl class="py function">
+<dt id="watch_it.files.matrix.make_matrix">
+<code class="sig-prename descclassname">watch_it.files.matrix.</code><code class="sig-name descname">make_matrix</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sbr</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.matrix.make_matrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Algorithm
+Return predictions</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.matrix.matrix_fct">
+<code class="sig-prename descclassname">watch_it.files.matrix.</code><code class="sig-name descname">matrix_fct</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">saber</span></em>, <em class="sig-param"><span class="n">movies</span></em>, <em class="sig-param"><span class="n">pred_num</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.matrix.matrix_fct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main module</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.matrix.recommend_movies">
+<code class="sig-prename descclassname">watch_it.files.matrix.</code><code class="sig-name descname">recommend_movies</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">predictions_df</span></em>, <em class="sig-param"><span class="n">user_id</span></em>, <em class="sig-param"><span class="n">movies_df</span></em>, <em class="sig-param"><span class="n">sbr</span></em>, <em class="sig-param"><span class="n">num_recommendations</span><span class="o">=</span><span class="default_value">5</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.matrix.recommend_movies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sorts predictions
+Return top &lt;num_recommendations&gt; for user &lt;userID&gt;</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files.neighbour">
+<span id="watch-it-files-neighbour-module"></span><h2>watch_it.files.neighbour module<a class="headerlink" href="#module-watch_it.files.neighbour" title="Permalink to this headline">¶</a></h2>
+<p>Module with neighbour algorithm</p>
+<dl class="py function">
+<dt id="watch_it.files.neighbour.nearest_n">
+<code class="sig-prename descclassname">watch_it.files.neighbour.</code><code class="sig-name descname">nearest_n</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">movies</span></em>, <em class="sig-param"><span class="n">saber</span></em>, <em class="sig-param"><span class="n">pred_num</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.neighbour.nearest_n" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>DataFrame</p>
+</dd>
+</dl>
+<p>Execute the algorithm
+print top n predictions
+Return all the predictions</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files.recomendation_engine">
+<span id="watch-it-files-recomendation-engine-module"></span><h2>watch_it.files.recomendation_engine module<a class="headerlink" href="#module-watch_it.files.recomendation_engine" title="Permalink to this headline">¶</a></h2>
+<p>Main Processing module</p>
+<dl class="py function">
+<dt id="watch_it.files.recomendation_engine.core">
+<code class="sig-prename descclassname">watch_it.files.recomendation_engine.</code><code class="sig-name descname">core</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">testing</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.recomendation_engine.core" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>testing</strong> – bool</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>DataFrame</p>
+</dd>
+</dl>
+<p>Run algorithms, prints
+and returns the best predictions</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.recomendation_engine.load">
+<code class="sig-prename descclassname">watch_it.files.recomendation_engine.</code><code class="sig-name descname">load</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">testing</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.recomendation_engine.load" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>DataFrame, Saber, DataFrame</p>
+</dd>
+</dl>
+<p>Load all the necessary data</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.recomendation_engine.quintessential">
+<code class="sig-prename descclassname">watch_it.files.recomendation_engine.</code><code class="sig-name descname">quintessential</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pivot</span></em>, <em class="sig-param"><span class="n">rec_n</span></em>, <em class="sig-param"><span class="n">rec_m</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.recomendation_engine.quintessential" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pivot</strong> – DataFrame</p></li>
+<li><p><strong>rec_n</strong> – DataFrame</p></li>
+<li><p><strong>rec_m</strong> – DataFrame</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>DataFrame</p>
+</dd>
+</dl>
+<p>Try to make the best prediction possible
+First filters genres and then adds intersection
+of results of two algorithms to their parts in certain
+proportion.
+Proportion depends on COEFFICIENT</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files.start">
+<span id="watch-it-files-start-module"></span><h2>watch_it.files.start module<a class="headerlink" href="#module-watch_it.files.start" title="Permalink to this headline">¶</a></h2>
+<p>Chatting module</p>
+<dl class="py function">
+<dt id="watch_it.files.start.ask_genres">
+<code class="sig-prename descclassname">watch_it.files.start.</code><code class="sig-name descname">ask_genres</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.start.ask_genres" title="Permalink to this definition">¶</a></dt>
+<dd><p>() -&gt; (set)
+Prints information about recommendation system.
+Asks user about his/her favourite genres of the films.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.start.ask_ratings">
+<code class="sig-prename descclassname">watch_it.files.start.</code><code class="sig-name descname">ask_ratings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">films</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.start.ask_ratings" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Series) -&gt; (dict)
+Print best films of user`s favourite genres
+one by one and asks how user can evaluate
+the film from 0.5 to 5.</p>
+<p>Return dictionary, where keys are
+films names and values are user`s ratings.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.start.filter_films">
+<code class="sig-prename descclassname">watch_it.files.start.</code><code class="sig-name descname">filter_films</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">user_genres</span></em>, <em class="sig-param"><span class="n">d_f</span></em><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.start.filter_films" title="Permalink to this definition">¶</a></dt>
+<dd><p>(set, Dataframe) -&gt; (Dataframe)
+Return dataframe with films of
+user`s favourite genres.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="watch_it.files.start.main">
+<code class="sig-prename descclassname">watch_it.files.start.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#watch_it.files.start.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>() -&gt; (Dataframe)
+Main function</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-watch_it.files">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-watch_it.files" title="Permalink to this headline">¶</a></h2>
+<p>Some config</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Watch_it</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Film Scientists.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/watch_it.files.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

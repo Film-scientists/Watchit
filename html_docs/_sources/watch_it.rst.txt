@@ -1,0 +1,46 @@
+watch\_it package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   watch_it.files
+
+Submodules
+----------
+
+watch\_it.req module
+--------------------
+
+.. automodule:: watch_it.req
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.script module
+-----------------------
+
+.. automodule:: watch_it.script
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.test\_modules module
+------------------------------
+
+.. automodule:: watch_it.test_modules
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: watch_it
+   :members:
+   :undoc-members:
+   :show-inheritance:

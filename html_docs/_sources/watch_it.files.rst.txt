@@ -1,0 +1,72 @@
+watch\_it.files package
+=======================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   watch_it.files.data
+   watch_it.files.data_structure
+   watch_it.files.tests
+
+Submodules
+----------
+
+watch\_it.files.auth module
+---------------------------
+
+.. automodule:: watch_it.files.auth
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.film\_system module
+-----------------------------------
+
+.. automodule:: watch_it.files.film_system
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.matrix module
+-----------------------------
+
+.. automodule:: watch_it.files.matrix
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.neighbour module
+--------------------------------
+
+.. automodule:: watch_it.files.neighbour
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.recomendation\_engine module
+--------------------------------------------
+
+.. automodule:: watch_it.files.recomendation_engine
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+watch\_it.files.start module
+----------------------------
+
+.. automodule:: watch_it.files.start
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: watch_it.files
+   :members:
+   :undoc-members:
+   :show-inheritance:
