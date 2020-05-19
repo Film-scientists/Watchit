@@ -15,7 +15,9 @@ Run script.py from wach_it folder.
 
 ## Installation (distribution kit)
 Install our project by downloading ``` Watch_It-1.0.0.tar.gz ```
+
 Create new projects and move ``` Watch_It-1.0.0.tar.gz ``` there.
+
 Then use:
 ```
 cd dist
