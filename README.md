@@ -51,3 +51,5 @@ film_system.py containes class FilmSystem, which ties all modules together. Meth
 ## Tests
 test_modules.py executes testing of all modules by calling modules with unittests from tests folder. You can run test_modules.py to get sure that everything works properly.
 
+## Video presentation
+[video](https://www.youtube.com/watch?v=sYFv4N2ajDg&feature=youtu.be)
