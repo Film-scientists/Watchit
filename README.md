@@ -3,7 +3,7 @@
 "WatchIt" is a recommender system, which helps you to choose movies, that fit best to your prefernces. Start with choosing your
 favourite categories of films. Then evaluate movies, that you have already seen. Taking to account your ratings, system picks up and 
 proposes 20 films, that match your tastes best. 
-## Instalation
+## Instalation (copying the project)
 Install our project by using: 
 ```python
 $ git clone https://github.com/Film-scientists/Watchit
@@ -13,6 +13,17 @@ Follow the next path to unzip file you need. Watchit --> wach_it --> files --> d
 
 Run script.py from wach_it folder. 
 
+## Installation (distribution kit)
+Install our project by downloading ``` Watch_It-1.0.0.tar.gz ```
+Create new projects and move ``` Watch_It-1.0.0.tar.gz ``` there.
+Then use:
+```
+cd dist
+tar xzvf Watch_It-1.0.0.tar.gz
+cd Watch_It-1.0.0
+python setup.py install
+```
+Run script.py from wach_it folder
 
 ## Usage example
 First of all you need to register in our system. Then, you have 2 options:'get' - to get recommendations and 'see' - to see previous recommendations. ![](images/start.jpg)
